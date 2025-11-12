@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      # Volume per i dati persistenti (CSV e Indice FAISS)
+      - ./data:/app/data
+      # Volume per i report di valutazione
+      # Questo permette allo script 'evaluate.py' di scrivere
+      # il report e a te di vederlo sul tuo computer.
+      - ./src/evaluation:/app/src/evaluation
+    restart: unless-stopped
+
+  prometheus:
+    # (configurazione invariata)
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    depends_on:
+      - app
+    restart: unless-stopped
+
+  grafana:
+    # (configurazione invariata)
+    image: grafana/grafana-oss:latest
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - prometheus
+    restart: unless-stopped

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAG DMV Assistant</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #f4f4f4; }
+    h1 { color: #333; }
+    textarea { width: 100%; height: 100px; box-sizing: border-box; padding: 10px; }
+    button { background: #007bff; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    .result { margin-top: 1rem; padding: 1rem; border: 1px solid #ddd; background: #fff; }
+    pre { white-space: pre-wrap; background: #eee; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>RAG DMV Assistant</h1>
+  <p>Chiedi qualcosa riguardo la motorizzazione civile (DMV).</p>
+  
+  <form id="frm" method="post" action="/ask">
+    <label for="text">La tua domanda:</label><br>
+    <textarea id="text" name="text" required></textarea><br><br>
+    <button type="submit">Invia</button>
+  </form>
+
+  <div id="output" class="result" style="display:none"></div>
+
+  <script>
+    const form = document.getElementById('frm');
+    const out = document.getElementById('output');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const query = formData.get('text');
+      
+      out.style.display = 'block';
+      out.innerHTML = '<p>Elaborazione in corso... (Ricerca e Generazione)</p>';
+
+      const res = await fetch('/ask', { method: 'POST', body: formData });
+      
+      if (!res.ok) {
+        const txt = await res.text();
+        out.innerHTML = `<p><strong>Errore:</strong> ${txt}</p>`;
+        return;
+      }
+      
+      const json = await res.json();
+      let html = '';
+      html += `<p><strong>Domanda:</strong> ${json.query}</p>`;
+      html += `<h3>Risposta (Generata da Gemini):</h3>`;
+      html += `<p>${json.answer.replace(/\n/g, '<br>')}</p>`; // Mostra la risposta
+      
+      if (json.contexts && json.contexts.length > 0) {
+        html += '<hr><h3>Contesti usati (Trovati da FAISS):</h3>';
+        json.contexts.forEach((ctx, i) => {
+          html += `<h4>Contesto ${i+1}</h4>`;
+          html += `<pre>${ctx}</pre>`; // Mostra i contesti
+        })
+      } else {
+        html += '<p>Nessun contesto specifico trovato.</p>';
+      }
+      out.innerHTML = html;
+    });
+  </script>
+</body>
+</html>
