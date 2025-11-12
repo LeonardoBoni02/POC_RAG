@@ -1,0 +1,344 @@
+question,ground_truth_answer,generated_answer,f1,em,contexts
+What can I do if I forgot to update my address?,"Don't forget to that, there are branches you can go to do this.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What can I do if I forgot to update my address?', 'role': 'user'}
+ {'content': ""Don't forget to that, there are branches you can go to do this."", 'role': 'assistant'}
+ {'content': 'Please refrence local Maps or our website to find a local branch.', 'role': 'assistant'}
+ {'content': 'What if iI already moved?', 'role': 'user'}
+ {'content': 'Please go to a local branch with a piece of mail and update your address.', 'role': 'user'}]",Please go to a local branch and update your address.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.16666666666666666,0.0,
+"[{'content': 'What can I do if I forgot to update my address?', 'role': 'user'}
+ {'content': ""Don't forget to that, there are branches you can go to do this."", 'role': 'assistant'}
+ {'content': 'Please refrence local Maps or our website to find a local branch.', 'role': 'assistant'}
+ {'content': 'What if iI already moved?', 'role': 'user'}
+ {'content': 'Please go to a local branch with a piece of mail and update your address.', 'role': 'user'}
+ {'content': 'Please go to a local branch and update your address.', 'role': 'assistant'}
+ {'content': 'What if my insurance lapsed too?', 'role': 'user'}]","You'll need to either bring a copy of your current, new, insurance or pay the un-insured fee.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.06451612903225808,0.0,
+"[{'content': 'What can I do if I forgot to update my address?', 'role': 'user'}
+ {'content': ""Don't forget to that, there are branches you can go to do this."", 'role': 'assistant'}
+ {'content': 'Please refrence local Maps or our website to find a local branch.', 'role': 'assistant'}
+ {'content': 'What if iI already moved?', 'role': 'user'}
+ {'content': 'Please go to a local branch with a piece of mail and update your address.', 'role': 'user'}
+ {'content': 'Please go to a local branch and update your address.', 'role': 'assistant'}
+ {'content': 'What if my insurance lapsed too?', 'role': 'user'}
+ {'content': ""You'll need to either bring a copy of your current, new, insurance or pay the un-insured fee."", 'role': 'assistant'}
+ {'content': 'Please make sure to bring all documentation needed to a local branch to expedite this process.', 'role': 'assistant'}
+ {'content': ""I'll make sure to do so."", 'role': 'user'}]","If you need the forms mailed to you, or to download them, please check our website.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.06666666666666667,0.0,
+"[{'content': 'What can I do if I forgot to update my address?', 'role': 'user'}
+ {'content': ""Don't forget to that, there are branches you can go to do this."", 'role': 'assistant'}
+ {'content': 'Please refrence local Maps or our website to find a local branch.', 'role': 'assistant'}
+ {'content': 'What if iI already moved?', 'role': 'user'}
+ {'content': 'Please go to a local branch with a piece of mail and update your address.', 'role': 'user'}
+ {'content': 'Please go to a local branch and update your address.', 'role': 'assistant'}
+ {'content': 'What if my insurance lapsed too?', 'role': 'user'}
+ {'content': ""You'll need to either bring a copy of your current, new, insurance or pay the un-insured fee."", 'role': 'assistant'}
+ {'content': 'Please make sure to bring all documentation needed to a local branch to expedite this process.', 'role': 'assistant'}
+ {'content': ""I'll make sure to do so."", 'role': 'user'}
+ {'content': 'If you need the forms mailed to you, or to download them, please check our website.', 'role': 'assistant'}
+ {'content': ""I'll make sure to do so."", 'role': 'user'}]",Thank you; it will save you at least an hour in line.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What can I do if I forgot to update my address?', 'role': 'user'}
+ {'content': ""Don't forget to that, there are branches you can go to do this."", 'role': 'assistant'}
+ {'content': 'Please refrence local Maps or our website to find a local branch.', 'role': 'assistant'}
+ {'content': 'What if iI already moved?', 'role': 'user'}
+ {'content': 'Please go to a local branch with a piece of mail and update your address.', 'role': 'user'}
+ {'content': 'Please go to a local branch and update your address.', 'role': 'assistant'}
+ {'content': 'What if my insurance lapsed too?', 'role': 'user'}
+ {'content': ""You'll need to either bring a copy of your current, new, insurance or pay the un-insured fee."", 'role': 'assistant'}
+ {'content': 'Please make sure to bring all documentation needed to a local branch to expedite this process.', 'role': 'assistant'}
+ {'content': ""I'll make sure to do so."", 'role': 'user'}
+ {'content': 'If you need the forms mailed to you, or to download them, please check our website.', 'role': 'assistant'}
+ {'content': ""I'll make sure to do so."", 'role': 'user'}
+ {'content': 'Thank you; it will save you at least an hour in line.', 'role': 'assistant'}
+ {'content': ""What if it doesn't solve my problem though?"", 'role': 'user'}]","Provided you bring all relevant documentation to the DMV branch, you should have no issues.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+What will happen if I let my insurance lapse?,"It is a good thing that to not let your insurance lapse because otherwise, we all pay for it indirectly.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.058823529411764705,0.0,
+"[{'content': 'What will happen if I let my insurance lapse?', 'role': 'user'}
+ {'content': 'It is a good thing that to not let your insurance lapse because otherwise, we all pay for it indirectly.', 'role': 'assistant'}
+ {'content': 'Do you know what happens when your insurance lapse?', 'role': 'assistant'}
+ {'content': 'No, my insurance is not lapsed right now.', 'role': 'user'}
+ {'content': 'How do I learn more about insurance lapses and how to surrender my plates?', 'role': 'user'}]",You have to contact the DMV if you want to surrender your plates and ask them how to do that.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.058823529411764705,0.0,
+"[{'content': 'What will happen if I let my insurance lapse?', 'role': 'user'}
+ {'content': 'It is a good thing that to not let your insurance lapse because otherwise, we all pay for it indirectly.', 'role': 'assistant'}
+ {'content': 'Do you know what happens when your insurance lapse?', 'role': 'assistant'}
+ {'content': 'No, my insurance is not lapsed right now.', 'role': 'user'}
+ {'content': 'How do I learn more about insurance lapses and how to surrender my plates?', 'role': 'user'}
+ {'content': 'You have to contact the DMV if you want to surrender your plates and ask them how to do that.', 'role': 'assistant'}
+ {'content': 'How many registrations are suspended each year for failure to maintain insurance?', 'role': 'user'}]","You will be one of the 300,000 suspended registration and license if you fail to maintain insurance.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What will happen if I let my insurance lapse?', 'role': 'user'}
+ {'content': 'It is a good thing that to not let your insurance lapse because otherwise, we all pay for it indirectly.', 'role': 'assistant'}
+ {'content': 'Do you know what happens when your insurance lapse?', 'role': 'assistant'}
+ {'content': 'No, my insurance is not lapsed right now.', 'role': 'user'}
+ {'content': 'How do I learn more about insurance lapses and how to surrender my plates?', 'role': 'user'}
+ {'content': 'You have to contact the DMV if you want to surrender your plates and ask them how to do that.', 'role': 'assistant'}
+ {'content': 'How many registrations are suspended each year for failure to maintain insurance?', 'role': 'user'}
+ {'content': 'You will be one of the 300,000 suspended registration and license if you fail to maintain insurance.', 'role': 'assistant'}
+ {'content': 'What can I do if the inquiry letter does not resolve my problem?', 'role': 'user'}]",By law we will have to suspend the vehicle registration.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What will happen if I let my insurance lapse?', 'role': 'user'}
+ {'content': 'It is a good thing that to not let your insurance lapse because otherwise, we all pay for it indirectly.', 'role': 'assistant'}
+ {'content': 'Do you know what happens when your insurance lapse?', 'role': 'assistant'}
+ {'content': 'No, my insurance is not lapsed right now.', 'role': 'user'}
+ {'content': 'How do I learn more about insurance lapses and how to surrender my plates?', 'role': 'user'}
+ {'content': 'You have to contact the DMV if you want to surrender your plates and ask them how to do that.', 'role': 'assistant'}
+ {'content': 'How many registrations are suspended each year for failure to maintain insurance?', 'role': 'user'}
+ {'content': 'You will be one of the 300,000 suspended registration and license if you fail to maintain insurance.', 'role': 'assistant'}
+ {'content': 'What can I do if the inquiry letter does not resolve my problem?', 'role': 'user'}
+ {'content': 'By law we will have to suspend the vehicle registration.', 'role': 'assistant'}
+ {'content': 'What will happen if I move to another state and I have a suspended license?', 'role': 'user'}]",It is possible that you could still get a license in another state; but sometimes it will still be considered suspended.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.057142857142857134,0.0,
+Can I get a DIAL-IN search account?,"Yes, if you regularly search DMV records for driver license, registration, vehicle title or insurance information.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can I get a DIAL-IN search account?', 'role': 'user'}
+ {'content': 'Yes, if you regularly search DMV records for driver license, registration, vehicle title or insurance information.', 'role': 'assistant'}
+ {'content': 'Since I use all those services as an attorney then I can sign up for the DIAL-IN now?', 'role': 'user'}]","Since you are an attorney, then yes you can use DIAL-IN services.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.07692307692307691,0.0,
+"[{'content': 'Can I get a DIAL-IN search account?', 'role': 'user'}
+ {'content': 'Yes, if you regularly search DMV records for driver license, registration, vehicle title or insurance information.', 'role': 'assistant'}
+ {'content': 'Since I use all those services as an attorney then I can sign up for the DIAL-IN now?', 'role': 'user'}
+ {'content': 'Since you are an attorney, then yes you can use DIAL-IN services.', 'role': 'assistant'}
+ {'content': 'Can you help me understand when I will know my application has been accepted by DIAL-IN?', 'role': 'user'}]",We will review your application and then we will let you know as soon as we accept it.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.125,0.0,
+"[{'content': 'Can I get a DIAL-IN search account?', 'role': 'user'}
+ {'content': 'Yes, if you regularly search DMV records for driver license, registration, vehicle title or insurance information.', 'role': 'assistant'}
+ {'content': 'Since I use all those services as an attorney then I can sign up for the DIAL-IN now?', 'role': 'user'}
+ {'content': 'Since you are an attorney, then yes you can use DIAL-IN services.', 'role': 'assistant'}
+ {'content': 'Can you help me understand when I will know my application has been accepted by DIAL-IN?', 'role': 'user'}
+ {'content': 'We will review your application and then we will let you know as soon as we accept it.', 'role': 'assistant'}
+ {'content': 'Did you complete the whole application so that we can process it as soon as we review it?', 'role': 'assistant'}
+ {'content': 'No, I did not complete the whole application', 'role': 'user'}
+ {'content': 'So once I complete the whole application and you review it, I will get my acceptance?', 'role': 'user'}]","Yes, that is correct.  As soon as you complete the entire application as an attorney, then you will be accepted to the DIAL-IN service.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.052631578947368425,0.0,
+"[{'content': 'Can I get a DIAL-IN search account?', 'role': 'user'}
+ {'content': 'Yes, if you regularly search DMV records for driver license, registration, vehicle title or insurance information.', 'role': 'assistant'}
+ {'content': 'Since I use all those services as an attorney then I can sign up for the DIAL-IN now?', 'role': 'user'}
+ {'content': 'Since you are an attorney, then yes you can use DIAL-IN services.', 'role': 'assistant'}
+ {'content': 'Can you help me understand when I will know my application has been accepted by DIAL-IN?', 'role': 'user'}
+ {'content': 'We will review your application and then we will let you know as soon as we accept it.', 'role': 'assistant'}
+ {'content': 'Did you complete the whole application so that we can process it as soon as we review it?', 'role': 'assistant'}
+ {'content': 'No, I did not complete the whole application', 'role': 'user'}
+ {'content': 'So once I complete the whole application and you review it, I will get my acceptance?', 'role': 'user'}
+ {'content': 'Yes, that is correct.  As soon as you complete the entire application as an attorney, then you will be accepted to the DIAL-IN service.', 'role': 'assistant'}
+ {'content': 'Will DMV ask me any questions about my DIAL-IN searches I make?', 'role': 'user'}]","Yes, DMV will inquire about searches being made because it is in compliance.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+Can DMV see my searches?,"Yes, they may ask about performed searches.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}]",You will need to show proof.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}
+ {'content': 'You will need to show proof.', 'role': 'assistant'}
+ {'content': 'Will my records be shared?', 'role': 'user'}]","Yes, the records are public.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}
+ {'content': 'You will need to show proof.', 'role': 'assistant'}
+ {'content': 'Will my records be shared?', 'role': 'user'}
+ {'content': 'Yes, the records are public.', 'role': 'assistant'}
+ {'content': 'Are you concerned about someone asking have they been searched?', 'role': 'assistant'}
+ {'content': 'No, they will already be aware.', 'role': 'user'}
+ {'content': ""What happens if I didn't perform the search?"", 'role': 'user'}]",You will need to contact us.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}
+ {'content': 'You will need to show proof.', 'role': 'assistant'}
+ {'content': 'Will my records be shared?', 'role': 'user'}
+ {'content': 'Yes, the records are public.', 'role': 'assistant'}
+ {'content': 'Are you concerned about someone asking have they been searched?', 'role': 'assistant'}
+ {'content': 'No, they will already be aware.', 'role': 'user'}
+ {'content': ""What happens if I didn't perform the search?"", 'role': 'user'}
+ {'content': 'You will need to contact us.', 'role': 'assistant'}
+ {'content': 'What searches can I do?', 'role': 'user'}]",Anything for employment. There's a list available.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}
+ {'content': 'You will need to show proof.', 'role': 'assistant'}
+ {'content': 'Will my records be shared?', 'role': 'user'}
+ {'content': 'Yes, the records are public.', 'role': 'assistant'}
+ {'content': 'Are you concerned about someone asking have they been searched?', 'role': 'assistant'}
+ {'content': 'No, they will already be aware.', 'role': 'user'}
+ {'content': ""What happens if I didn't perform the search?"", 'role': 'user'}
+ {'content': 'You will need to contact us.', 'role': 'assistant'}
+ {'content': 'What searches can I do?', 'role': 'user'}
+ {'content': ""Anything for employment. There's a list available."", 'role': 'assistant'}
+ {'content': ""What if it doesn't work with my browser?"", 'role': 'user'}]",Update the version.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Can DMV see my searches?', 'role': 'user'}
+ {'content': 'Yes, they may ask about performed searches.', 'role': 'assistant'}
+ {'content': 'What if the search was for someone else?', 'role': 'user'}
+ {'content': 'You will need to show proof.', 'role': 'assistant'}
+ {'content': 'Will my records be shared?', 'role': 'user'}
+ {'content': 'Yes, the records are public.', 'role': 'assistant'}
+ {'content': 'Are you concerned about someone asking have they been searched?', 'role': 'assistant'}
+ {'content': 'No, they will already be aware.', 'role': 'user'}
+ {'content': ""What happens if I didn't perform the search?"", 'role': 'user'}
+ {'content': 'You will need to contact us.', 'role': 'assistant'}
+ {'content': 'What searches can I do?', 'role': 'user'}
+ {'content': ""Anything for employment. There's a list available."", 'role': 'assistant'}
+ {'content': ""What if it doesn't work with my browser?"", 'role': 'user'}
+ {'content': 'Update the version.', 'role': 'assistant'}
+ {'content': 'Who do I contact about my account?', 'role': 'user'}]",You can contact the DMV.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+What are out of state insurance documents?,New York will never accept out of state insurance coverage of any type.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What are out of state insurance documents?', 'role': 'user'}
+ {'content': 'New York will never accept out of state insurance coverage of any type.', 'role': 'assistant'}
+ {'content': 'Is your vehicle registered in New York.', 'role': 'assistant'}
+ {'content': 'yes', 'role': 'user'}]",It must have New York state insurance coverage.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What are out of state insurance documents?', 'role': 'user'}
+ {'content': 'New York will never accept out of state insurance coverage of any type.', 'role': 'assistant'}
+ {'content': 'Is your vehicle registered in New York.', 'role': 'assistant'}
+ {'content': 'yes', 'role': 'user'}
+ {'content': 'It must have New York state insurance coverage.', 'role': 'assistant'}
+ {'content': 'How long do I have to register?', 'role': 'user'}]",You have 180 days from date of your insurance ID.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.08333333333333333,0.0,
+"[{'content': 'What are out of state insurance documents?', 'role': 'user'}
+ {'content': 'New York will never accept out of state insurance coverage of any type.', 'role': 'assistant'}
+ {'content': 'Is your vehicle registered in New York.', 'role': 'assistant'}
+ {'content': 'yes', 'role': 'user'}
+ {'content': 'It must have New York state insurance coverage.', 'role': 'assistant'}
+ {'content': 'How long do I have to register?', 'role': 'user'}
+ {'content': 'You have 180 days from date of your insurance ID.', 'role': 'assistant'}
+ {'content': 'Where can I find an insurance company?', 'role': 'user'}]",The New York State Department of Financial Services website.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What are out of state insurance documents?', 'role': 'user'}
+ {'content': 'New York will never accept out of state insurance coverage of any type.', 'role': 'assistant'}
+ {'content': 'Is your vehicle registered in New York.', 'role': 'assistant'}
+ {'content': 'yes', 'role': 'user'}
+ {'content': 'It must have New York state insurance coverage.', 'role': 'assistant'}
+ {'content': 'How long do I have to register?', 'role': 'user'}
+ {'content': 'You have 180 days from date of your insurance ID.', 'role': 'assistant'}
+ {'content': 'Where can I find an insurance company?', 'role': 'user'}
+ {'content': 'The New York State Department of Financial Services website.', 'role': 'assistant'}
+ {'content': 'Will DMV accept copies of my insurance ID?', 'role': 'user'}]",Yes as long as barcode can be scanned.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.09090909090909091,0.0,
+"[{'content': 'What are out of state insurance documents?', 'role': 'user'}
+ {'content': 'New York will never accept out of state insurance coverage of any type.', 'role': 'assistant'}
+ {'content': 'Is your vehicle registered in New York.', 'role': 'assistant'}
+ {'content': 'yes', 'role': 'user'}
+ {'content': 'It must have New York state insurance coverage.', 'role': 'assistant'}
+ {'content': 'How long do I have to register?', 'role': 'user'}
+ {'content': 'You have 180 days from date of your insurance ID.', 'role': 'assistant'}
+ {'content': 'Where can I find an insurance company?', 'role': 'user'}
+ {'content': 'The New York State Department of Financial Services website.', 'role': 'assistant'}
+ {'content': 'Will DMV accept copies of my insurance ID?', 'role': 'user'}
+ {'content': 'Yes as long as barcode can be scanned.', 'role': 'assistant'}
+ {'content': 'What do I need from insurance company as proof?', 'role': 'user'}]",Your insurance company will give you two ID cards.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.08695652173913043,0.0,
+Do I need insurance?,Yes you need insurance.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Do I need insurance?', 'role': 'user'}
+ {'content': 'Yes you need insurance.', 'role': 'assistant'}
+ {'content': 'Are you looking to register a vehicle in New York State?', 'role': 'assistant'}
+ {'content': 'No not at this time.', 'role': 'user'}]",Do you currently have insurance?,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Do I need insurance?', 'role': 'user'}
+ {'content': 'Yes you need insurance.', 'role': 'assistant'}
+ {'content': 'Are you looking to register a vehicle in New York State?', 'role': 'assistant'}
+ {'content': 'No not at this time.', 'role': 'user'}
+ {'content': 'Do you currently have insurance?', 'role': 'assistant'}
+ {'content': 'Yes I maintain insurance at this time.', 'role': 'user'}]",Great without maintaining insurance the DMV can suspend your vehicle registration and your driver license.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0689655172413793,0.0,
+"[{'content': 'Do I need insurance?', 'role': 'user'}
+ {'content': 'Yes you need insurance.', 'role': 'assistant'}
+ {'content': 'Are you looking to register a vehicle in New York State?', 'role': 'assistant'}
+ {'content': 'No not at this time.', 'role': 'user'}
+ {'content': 'Do you currently have insurance?', 'role': 'assistant'}
+ {'content': 'Yes I maintain insurance at this time.', 'role': 'user'}
+ {'content': 'Great without maintaining insurance the DMV can suspend your vehicle registration and your driver license.', 'role': 'assistant'}
+ {'content': 'What type of insurance is required to register a vehicle?', 'role': 'user'}]",The DMV requires auto liability insurance to register a vehicle in New York.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'Do I need insurance?', 'role': 'user'}
+ {'content': 'Yes you need insurance.', 'role': 'assistant'}
+ {'content': 'Are you looking to register a vehicle in New York State?', 'role': 'assistant'}
+ {'content': 'No not at this time.', 'role': 'user'}
+ {'content': 'Do you currently have insurance?', 'role': 'assistant'}
+ {'content': 'Yes I maintain insurance at this time.', 'role': 'user'}
+ {'content': 'Great without maintaining insurance the DMV can suspend your vehicle registration and your driver license.', 'role': 'assistant'}
+ {'content': 'What type of insurance is required to register a vehicle?', 'role': 'user'}
+ {'content': 'The DMV requires auto liability insurance to register a vehicle in New York.', 'role': 'assistant'}
+ {'content': 'What proof do I need for the DMV?', 'role': 'user'}]",Your insurance company will issue proof of insurance.  It may be Insurance ID cards or provide you with access to your digital electronic NY State Insurance ID Card.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.047619047619047616,0.0,
+"[{'content': 'Do I need insurance?', 'role': 'user'}
+ {'content': 'Yes you need insurance.', 'role': 'assistant'}
+ {'content': 'Are you looking to register a vehicle in New York State?', 'role': 'assistant'}
+ {'content': 'No not at this time.', 'role': 'user'}
+ {'content': 'Do you currently have insurance?', 'role': 'assistant'}
+ {'content': 'Yes I maintain insurance at this time.', 'role': 'user'}
+ {'content': 'Great without maintaining insurance the DMV can suspend your vehicle registration and your driver license.', 'role': 'assistant'}
+ {'content': 'What type of insurance is required to register a vehicle?', 'role': 'user'}
+ {'content': 'The DMV requires auto liability insurance to register a vehicle in New York.', 'role': 'assistant'}
+ {'content': 'What proof do I need for the DMV?', 'role': 'user'}
+ {'content': 'Your insurance company will issue proof of insurance.  It may be Insurance ID cards or provide you with access to your digital electronic NY State Insurance ID Card.', 'role': 'assistant'}
+ {'content': 'Is that the only way to access the cards?', 'role': 'user'}]","Yes, your insurance will provide proof in one of two ways.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.08,0.0,
+How much does it cost to get a commercial registration?,You would need to get both the county and state fees from the appropriate sources.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'How much does it cost to get a commercial registration?', 'role': 'user'}
+ {'content': 'You would need to get both the county and state fees from the appropriate sources.', 'role': 'assistant'}
+ {'content': ""If it's the first time you've done this, you have a few small fees."", 'role': 'assistant'}
+ {'content': 'What fees are they?', 'role': 'user'}
+ {'content': ""I've looked at the fee chart but I don't understand it."", 'role': 'user'}]","If you reference it, it will tell you all you need to know.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'How much does it cost to get a commercial registration?', 'role': 'user'}
+ {'content': 'You would need to get both the county and state fees from the appropriate sources.', 'role': 'assistant'}
+ {'content': ""If it's the first time you've done this, you have a few small fees."", 'role': 'assistant'}
+ {'content': 'What fees are they?', 'role': 'user'}
+ {'content': ""I've looked at the fee chart but I don't understand it."", 'role': 'user'}
+ {'content': 'If you reference it, it will tell you all you need to know.', 'role': 'assistant'}
+ {'content': 'Is there a fee chart that refrences and combines both?', 'role': 'user'}]","No, you'll need to reference both in order to determine total cost.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'How much does it cost to get a commercial registration?', 'role': 'user'}
+ {'content': 'You would need to get both the county and state fees from the appropriate sources.', 'role': 'assistant'}
+ {'content': ""If it's the first time you've done this, you have a few small fees."", 'role': 'assistant'}
+ {'content': 'What fees are they?', 'role': 'user'}
+ {'content': ""I've looked at the fee chart but I don't understand it."", 'role': 'user'}
+ {'content': 'If you reference it, it will tell you all you need to know.', 'role': 'assistant'}
+ {'content': 'Is there a fee chart that refrences and combines both?', 'role': 'user'}
+ {'content': ""No, you'll need to reference both in order to determine total cost."", 'role': 'assistant'}
+ {'content': 'What about any city fees? Like inside NYC?', 'role': 'user'}]",There are different charts for passenger and commercial vehicles. Please reference the correct one.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.07142857142857142,0.0,
+"[{'content': 'How much does it cost to get a commercial registration?', 'role': 'user'}
+ {'content': 'You would need to get both the county and state fees from the appropriate sources.', 'role': 'assistant'}
+ {'content': ""If it's the first time you've done this, you have a few small fees."", 'role': 'assistant'}
+ {'content': 'What fees are they?', 'role': 'user'}
+ {'content': ""I've looked at the fee chart but I don't understand it."", 'role': 'user'}
+ {'content': 'If you reference it, it will tell you all you need to know.', 'role': 'assistant'}
+ {'content': 'Is there a fee chart that refrences and combines both?', 'role': 'user'}
+ {'content': ""No, you'll need to reference both in order to determine total cost."", 'role': 'assistant'}
+ {'content': 'What about any city fees? Like inside NYC?', 'role': 'user'}
+ {'content': 'There are different charts for passenger and commercial vehicles. Please reference the correct one.', 'role': 'assistant'}
+ {'content': 'Are there any other fees besides the ones in the charts?', 'role': 'user'}]",Yes. Refrerence the end of those charts.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+What are the fees for commercial vehicles?,Use both the registration fee and county use tax charts to determine your registration fee and county use tax.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.12121212121212122,0.0,
+"[{'content': 'What are the fees for commercial vehicles?', 'role': 'user'}
+ {'content': 'Use both the registration fee and county use tax charts to determine your registration fee and county use tax.', 'role': 'assistant'}
+ {'content': 'Is this the original registration of your vehicle?', 'role': 'assistant'}
+ {'content': 'Yes it is the original registration.', 'role': 'user'}]",Ok you must pay the fees for your vehicle plates which is $25 and your title certificate fee of $50.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.058823529411764705,0.0,
+"[{'content': 'What are the fees for commercial vehicles?', 'role': 'user'}
+ {'content': 'Use both the registration fee and county use tax charts to determine your registration fee and county use tax.', 'role': 'assistant'}
+ {'content': 'Is this the original registration of your vehicle?', 'role': 'assistant'}
+ {'content': 'Yes it is the original registration.', 'role': 'user'}
+ {'content': 'Ok you must pay the fees for your vehicle plates which is $25 and your title certificate fee of $50.', 'role': 'assistant'}
+ {'content': 'Is there a vehicle use tax?', 'role': 'user'}]",Residents of New York City and several counties in New York must pay a vehicle use tax when they register a commercial vehicle or renew a commercial vehicle registration.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.046511627906976744,0.0,
+"[{'content': 'What are the fees for commercial vehicles?', 'role': 'user'}
+ {'content': 'Use both the registration fee and county use tax charts to determine your registration fee and county use tax.', 'role': 'assistant'}
+ {'content': 'Is this the original registration of your vehicle?', 'role': 'assistant'}
+ {'content': 'Yes it is the original registration.', 'role': 'user'}
+ {'content': 'Ok you must pay the fees for your vehicle plates which is $25 and your title certificate fee of $50.', 'role': 'assistant'}
+ {'content': 'Is there a vehicle use tax?', 'role': 'user'}
+ {'content': 'Residents of New York City and several counties in New York must pay a vehicle use tax when they register a commercial vehicle or renew a commercial vehicle registration.', 'role': 'assistant'}
+ {'content': 'How much is the vehicle use tax?', 'role': 'user'}]",Vehicle use tax is $40 a year and livery and for-hire vehicles in these registration classes are $400 for 1 year.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.057142857142857134,0.0,
+"[{'content': 'What are the fees for commercial vehicles?', 'role': 'user'}
+ {'content': 'Use both the registration fee and county use tax charts to determine your registration fee and county use tax.', 'role': 'assistant'}
+ {'content': 'Is this the original registration of your vehicle?', 'role': 'assistant'}
+ {'content': 'Yes it is the original registration.', 'role': 'user'}
+ {'content': 'Ok you must pay the fees for your vehicle plates which is $25 and your title certificate fee of $50.', 'role': 'assistant'}
+ {'content': 'Is there a vehicle use tax?', 'role': 'user'}
+ {'content': 'Residents of New York City and several counties in New York must pay a vehicle use tax when they register a commercial vehicle or renew a commercial vehicle registration.', 'role': 'assistant'}
+ {'content': 'How much is the vehicle use tax?', 'role': 'user'}
+ {'content': 'Vehicle use tax is $40 a year and livery and for-hire vehicles in these registration classes are $400 for 1 year.', 'role': 'assistant'}
+ {'content': 'What about taxes outside of New York City?', 'role': 'user'}]",The chart show the use taxes and supplemental fees for all original registrations and renewals.  The amount of the sales tax depends on the purchase price and your locality.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.09302325581395349,0.0,
+"[{'content': 'What are the fees for commercial vehicles?', 'role': 'user'}
+ {'content': 'Use both the registration fee and county use tax charts to determine your registration fee and county use tax.', 'role': 'assistant'}
+ {'content': 'Is this the original registration of your vehicle?', 'role': 'assistant'}
+ {'content': 'Yes it is the original registration.', 'role': 'user'}
+ {'content': 'Ok you must pay the fees for your vehicle plates which is $25 and your title certificate fee of $50.', 'role': 'assistant'}
+ {'content': 'Is there a vehicle use tax?', 'role': 'user'}
+ {'content': 'Residents of New York City and several counties in New York must pay a vehicle use tax when they register a commercial vehicle or renew a commercial vehicle registration.', 'role': 'assistant'}
+ {'content': 'How much is the vehicle use tax?', 'role': 'user'}
+ {'content': 'Vehicle use tax is $40 a year and livery and for-hire vehicles in these registration classes are $400 for 1 year.', 'role': 'assistant'}
+ {'content': 'What about taxes outside of New York City?', 'role': 'user'}
+ {'content': 'The chart show the use taxes and supplemental fees for all original registrations and renewals.  The amount of the sales tax depends on the purchase price and your locality.', 'role': 'assistant'}
+ {'content': 'What determines a commercial vehicle?', 'role': 'user'}]",The fees listed in the chart are for commercial vehicles that weigh less than 18000 lbs.  Diesel powered commercial vehicles hat weigh 8501 lbs or more require an additional fee.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+What should I do for lost or stolen plates?,"You would need to surrender the registration for lost, stolen or destroyed plates.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What should I do for lost or stolen plates?', 'role': 'user'}
+ {'content': 'You would need to surrender the registration for lost, stolen or destroyed plates.', 'role': 'assistant'}
+ {'content': 'Is that really necessary?', 'role': 'user'}
+ {'content': 'Do I need to fill in any form if I go to the DMV office to surrender my plates?', 'role': 'user'}]","Yes. It is necessary. If you are planning to surrender your plates at a DMV office, you would need to complete the Plate Surrender Application PDF [ 1 ] PD-7 for each set of plates you are surrendering.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.038461538461538464,0.0,
+"[{'content': 'What should I do for lost or stolen plates?', 'role': 'user'}
+ {'content': 'You would need to surrender the registration for lost, stolen or destroyed plates.', 'role': 'assistant'}
+ {'content': 'Is that really necessary?', 'role': 'user'}
+ {'content': 'Do I need to fill in any form if I go to the DMV office to surrender my plates?', 'role': 'user'}
+ {'content': 'Yes. It is necessary. If you are planning to surrender your plates at a DMV office, you would need to complete the Plate Surrender Application PDF [ 1 ] PD-7 for each set of plates you are surrendering.', 'role': 'assistant'}
+ {'content': 'Can you explain the steps for lost, stolen or destroyed plates?', 'role': 'user'}]","Yes. First report about the plates and  state the reason for the report. Next, you would need to surrender the registration. You will then be issued with a new registration and plates.",ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.0,0.0,
+"[{'content': 'What should I do for lost or stolen plates?', 'role': 'user'}
+ {'content': 'You would need to surrender the registration for lost, stolen or destroyed plates.', 'role': 'assistant'}
+ {'content': 'Is that really necessary?', 'role': 'user'}
+ {'content': 'Do I need to fill in any form if I go to the DMV office to surrender my plates?', 'role': 'user'}
+ {'content': 'Yes. It is necessary. If you are planning to surrender your plates at a DMV office, you would need to complete the Plate Surrender Application PDF [ 1 ] PD-7 for each set of plates you are surrendering.', 'role': 'assistant'}
+ {'content': 'Can you explain the steps for lost, stolen or destroyed plates?', 'role': 'user'}
+ {'content': 'Yes. First report about the plates and  state the reason for the report. Next, you would need to surrender the registration. You will then be issued with a new registration and plates.', 'role': 'assistant'}
+ {'content': 'If I were to surrender my plates by mail, which date you will use for the date that I surrendered the plates?', 'role': 'user'}]",We will use the mail postmark date.,ERRORE: 403 Your API key was reported as leaked. Please use another API key.,0.09523809523809523,0.0,
